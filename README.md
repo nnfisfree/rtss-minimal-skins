@@ -1,6 +1,6 @@
 <div align="center">
 
-# Line — RivaTuner overlay skins
+# RivaTuner Statistics Server minimal overlay skins
 
 **Six one-line overlays for RivaTuner Statistics Server: FPS, GPU and CPU load and temperature, and a frametime graph, with animated AMD and NVIDIA icons.**
 <br />
@@ -193,4 +193,4 @@ These skins are free, and they always will be. If they make your games look a li
 
 Donations are optional. Sharing the skins, reporting problems or showing off your own variations helps just as much. ❤️
 
-**Also by me:** [NoName's Multichat Control](https://github.com/nnfisfree/multichat-control), one window for Twitch, YouTube and Kick chat.
+**Also by me:** [Multichat Control](https://github.com/nnfisfree/multichat-control), one window for Twitch, YouTube and Kick chat.
