@@ -1,0 +1,68 @@
+[Master]
+Implementation=2
+FontFace=Bahnschrift
+FontHeight=-15
+FontWeight=600
+ZoomRatio=1
+[Settings]
+Name=NNF Line | single-row strip, transparent
+EnvVars=
+RefreshPeriod=500
+LockUserSettings=1
+EmbeddedImage=
+PingAddr=
+[General]
+Sources=4
+Tables=0
+Layers=2
+[Source0]
+Name=GPU1 usage
+Units=
+Format=%.0f
+Formula=
+Provider=HAL
+ID=GPU1 usage
+[Source1]
+Name=GPU1 temperature
+Units=
+Format=%.0f
+Formula=
+Provider=HAL
+ID=GPU1 temperature
+[Source2]
+Name=CPU usage
+Units=
+Format=%.0f
+Formula=
+Provider=HAL
+ID=CPU usage
+[Source3]
+Name=CPU temperature
+Units=
+Format=%.0f
+Formula=
+Provider=HAL
+ID=CPU temperature
+[Layer0]
+Name=Strip
+Text=<C=2E9762>GPU<C> %GPU1 usage%<S=-60><C=8A9099>%<C><S> %GPU1 temperature%<S=-60><C=8A9099>°<C><S>   <C=2E97CB>CPU<C> %CPU usage%<S=-60><C=8A9099>%<C><S> %CPU temperature%<S=-60><C=8A9099>°<C><S>   <FR><S=-60><C=8A9099>FPS<C><S>  <C=2E9762><G=Frametime,-8,-1,1,0,40,0><C>
+PositionX=0
+PositionY=0
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=FFFFFF
+RefreshPeriod=50
+MarginLeft=2
+MarginTop=2
+MarginRight=2
+MarginBottom=2
+[Layer1]
+Name=Cursor position placeholder
+Text=" \b"
+PositionX=0
+PositionY=-1
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0

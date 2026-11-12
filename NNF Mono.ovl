@@ -1,0 +1,107 @@
+[Master]
+Implementation=2
+FontFace=Bahnschrift
+FontHeight=-15
+FontWeight=600
+ZoomRatio=1
+[Settings]
+Name=NNF Mono | big FPS, monochrome, transparent
+EnvVars=
+RefreshPeriod=500
+LockUserSettings=1
+EmbeddedImage=
+PingAddr=
+[General]
+Sources=4
+Tables=0
+Layers=6
+[Source0]
+Name=GPU1 usage
+Units=
+Format=%.0f
+Formula=
+Provider=HAL
+ID=GPU1 usage
+[Source1]
+Name=GPU1 temperature
+Units=
+Format=%.0f
+Formula=
+Provider=HAL
+ID=GPU1 temperature
+[Source2]
+Name=CPU usage
+Units=
+Format=%.0f
+Formula=
+Provider=HAL
+ID=CPU usage
+[Source3]
+Name=CPU temperature
+Units=
+Format=%.0f
+Formula=
+Provider=HAL
+ID=CPU temperature
+[Layer0]
+Name=Framerate
+Text=<FR>
+PositionX=0
+PositionY=0
+ExtentX=-7
+ExtentY=-2
+ExtentOrigin=0
+FixedAlignment=1
+Size=200
+TextColor=FFFFFF
+[Layer1]
+Name=Framerate units
+Text=FPS
+PositionX=-7
+PositionY=-1
+ExtentX=-4
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+Size=70
+TextColor=8A9099
+[Layer2]
+Name=Frametime graph
+Text=<G=Frametime,0,0,1,0,40,0>
+PositionX=0
+PositionY=-2
+ExtentX=-12
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=D8DCE0
+[Layer3]
+Name=GPU line
+Text=<C=8A9099>GPU<C>  %GPU1 usage%<S=-60><C=8A9099>%<C><S>  %GPU1 temperature%<S=-60><C=8A9099>°<C><S>
+PositionX=0
+PositionY=-3
+ExtentX=-12
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+Size=85
+TextColor=FFFFFF
+[Layer4]
+Name=CPU line
+Text=<C=8A9099>CPU<C>  %CPU usage%<S=-60><C=8A9099>%<C><S>  %CPU temperature%<S=-60><C=8A9099>°<C><S>
+PositionX=0
+PositionY=-4
+ExtentX=-12
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+Size=85
+TextColor=FFFFFF
+[Layer5]
+Name=Cursor position placeholder
+Text=" \b"
+PositionX=0
+PositionY=-5
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
