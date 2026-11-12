@@ -8,7 +8,7 @@ No background box and no extra software. Copy two files, load the one you like, 
 
 <br />
 
-[![Download](https://img.shields.io/badge/Download-ZIP-34e39f?style=for-the-badge)](https://github.com/nnfisfree/rtss-minimal-skins/archive/refs/heads/main.zip)
+[![Download](https://img.shields.io/github/v/release/nnfisfree/rtss-minimal-skins?label=Download&style=for-the-badge&color=34e39f&cacheSeconds=1805&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik00IDJoMTNsNSA1djEzYTIgMiAwIDAgMS0yIDJINGEyIDIgMCAwIDEtMi0yVjRhMiAyIDAgMCAxIDItMnptMiAydjZoMTFWNEg2em04IDFoMnY0aC0yVjV6TTYgMTR2NmgxMnYtNkg2eiIvPjwvc3ZnPg%3D%3D)](https://github.com/nnfisfree/rtss-minimal-skins/releases/latest)
 ![RivaTuner](https://img.shields.io/badge/RTSS-7.3%2B-5b35f0?style=for-the-badge)
 ![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-27a9e8?style=for-the-badge)
 
@@ -66,7 +66,7 @@ Install [RivaTuner Statistics Server](https://www.guru3d.com/download/rtss-rivat
 
 ### 2. Download the skins
 
-Click **[Download ZIP](https://github.com/nnfisfree/rtss-minimal-skins/archive/refs/heads/main.zip)** and extract it anywhere. You only need these files:
+Open the **[latest release](https://github.com/nnfisfree/rtss-minimal-skins/releases/latest)**, download `rtss-minimal-skins-v….zip` under *Assets*, and extract it anywhere. Inside you'll find an `INSTALL.txt` with these same steps, plus:
 
 ```
 Line - Bold.ovl
